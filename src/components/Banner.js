@@ -3,7 +3,7 @@ import "../scss/banner.scss";
 import img1 from "../assests/Logo (3)/Logo.png";
 
 const Banner = () => {
-  useEffect(() => {}, []);
+  useEffect(() => { }, []);
   return (
     <>
       <section id="banner">
@@ -23,12 +23,10 @@ const Banner = () => {
         <div className="bottom_des">
           <div className="bottom_container">
             <h1>
-              Are you ready to witness the most epic crypto battle of all time?
+              Are you prepared to observe the most legendary crypto showdown in history?
             </h1>
             <p>
-              Shiba Inu and Pepe Frog, two legendary meme characters, are
-              stepping into the ring for an electrifying Street Fighter-style
-              showdown in the world of cryptocurrencies!
+              Pepe the frog and Shiba Inu, two iconic meme characters, are about to engage in an electrifying Street Fighter-style showdown within the realm of cryptocurrencies!
             </p>
           </div>
         </div>
