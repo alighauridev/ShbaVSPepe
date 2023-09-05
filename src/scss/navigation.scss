@@ -75,8 +75,7 @@ header {
               position: relative;
               transition: 0.3s all;
               font-size: 18px;
-              font-family: 'Anuphan', sans-serif
-              ;
+              font-family: 'Anuphan', sans-serif;
 
               align-items: center;
               justify-content: center;
@@ -210,7 +209,11 @@ header {
       span {
         color: white;
         font-size: 22px;
-        font-family: 'Anuphan', sans-serif
+        font-family: 'Anuphan', sans-serif;
+
+        @include mobile {
+          font-size: 13px;
+        }
       }
     }
   }
