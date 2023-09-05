@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding-top: 132px;
+    padding-top: 123px;
     position: relative;
     max-width: unset;
 
@@ -43,9 +43,8 @@
       img {
         width: 100%;
         object-fit: cover;
-        max-width: 1000px;
-        margin-bottom: -120px;
-
+        max-width: 900px;
+        margin-bottom: -70px;
         @include md {
           width: 100%;
         }
