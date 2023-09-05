@@ -10,9 +10,7 @@ const Chart = () => {
             <h1>CHART</h1>
           </div>
           <div className="des">
-            Shiba vs Pepe offers a straightforward tokenomics structure where
-            the Chart and sell ratio is 1:1, ensuring fairness and equality for
-            all holders.
+            Pepe VS Shiba presents a simple tokenomics structure with a 1:1 buy and sell ratio, guaranteeing equity and parity for all token holders.
           </div>
           <div className="bottom_icon">
             <a href="#">

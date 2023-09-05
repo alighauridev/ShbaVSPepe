@@ -10,8 +10,7 @@ const Buy = () => {
             <h1>BUY</h1>
           </div>
           <div className="des">
-            Join the meme battle by acquiring your Shiba VS Pepe on Uniswap, the
-            leading decentralized exchange.
+            Participate in the meme showdown by obtaining your Pepe VS Shiba tokens through Uniswap, the foremost decentralized exchange platform.
           </div>
           <div className="bottom_icon">
             <a href="#">
