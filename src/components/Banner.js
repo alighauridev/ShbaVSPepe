@@ -20,7 +20,7 @@ const Banner = () => {
             <div className="div_4"></div>
           </div>
         </div>
-        <div className="bottom_des">
+        <div className="bottom_des" id="about">
           <div className="bottom_container">
             <h1>
               Are you prepared to observe the most legendary crypto showdown in history?

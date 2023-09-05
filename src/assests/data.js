@@ -23,7 +23,7 @@ export const nav = [
   },
   {
     name: "Socials",
-    path: "#socials",
+    path: "#footer",
   },
 ];
 
