@@ -82,10 +82,10 @@ const Navigation = () => {
         </div>
         <div className="address">
           <a href="#">
-            <span>CA: 0x0b0a8c7c34374c1d0c649917a97eee6c6c929b1b</span>
+            <span>CA: 0x0000000000000000000000000000000000000000</span>
           </a>
         </div>
-    
+
       </header>
       <div
         onClick={() => window.scroll(0, 0)}

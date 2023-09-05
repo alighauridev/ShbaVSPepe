@@ -12,10 +12,7 @@ export const nav = [
     name: "Tokenomics",
     path: "#tokenomics",
   },
-  {
-    name: "Tokenomics",
-    path: "#tokenomics",
-  },
+
   {
     name: "Buy",
     path: "#buy",
