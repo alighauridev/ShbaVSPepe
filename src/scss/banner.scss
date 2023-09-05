@@ -23,19 +23,7 @@
     width: 100%;
     padding-top: 132px;
     position: relative;
-
-    // &::before {
-    //   content: "";
-    //   position: absolute;
-    //   top: 0px;
-    //   left: 50%;
-    //   background: url("../assests/shepe-hero-1024x536.png");
-    //   background-repeat: no-repeat;
-    //   background-position: top center;
-    //   background-size: cover;
-    //   transform: translate(-50%, -50%);
-    //   z-index: 11;
-    // }
+    max-width: unset;
 
     .img {
       display: flex;
@@ -56,6 +44,8 @@
         width: 100%;
         object-fit: cover;
         max-width: 1000px;
+        margin-bottom: -120px;
+
         @include md {
           width: 100%;
         }
@@ -70,7 +60,19 @@
       justify-content: center;
       width: 100%;
       height: 100%;
-      height: 100vh;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        background: url("../assests/Logo (3)/Logo.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        transform: translate(-50%, -50%);
+        z-index: 11;
+      }
 
       .div_1 {
         background-color: #009344;
@@ -88,6 +90,9 @@
         background-color: white;
         width: 100%;
         height: 350px;
+        @include md {
+          height: 180px;
+        }
       }
 
       .div_4 {
