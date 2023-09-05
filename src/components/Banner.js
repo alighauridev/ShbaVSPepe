@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../scss/banner.scss";
-import img1 from "../assests/shepe-hero-1024x536.png";
+import img1 from "../assests/Logo (3)/Logo.png";
 
 const Banner = () => {
   useEffect(() => {}, []);
