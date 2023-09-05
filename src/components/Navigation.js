@@ -5,8 +5,8 @@ import "../scss/navigation.scss";
 import { FaDiscord } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { MdKeyboardArrowUp } from "react-icons/md";
-import logo1 from "../assests/shiba-vs-pepe-web-v1-1024x368.png";
-import logo2 from "../assests/logo-2.webp";
+import logo1 from "../assests/Logo (3)/Small-Logo.png";
+
 import { LinkOff, LinkOffOutlined, LinkRounded } from "@material-ui/icons";
 const Navigation = () => {
   const [navToggler, setNavToggler] = useState(false);

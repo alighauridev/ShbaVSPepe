@@ -7,7 +7,7 @@ const Chart = () => {
       <section id="chart">
         <div className="container">
           <div className="heading">
-            <h1>TOKENOMICS</h1>
+            <h1>CHART</h1>
           </div>
           <div className="des">
             Shiba vs Pepe offers a straightforward tokenomics structure where

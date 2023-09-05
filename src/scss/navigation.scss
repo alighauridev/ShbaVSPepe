@@ -75,7 +75,7 @@ header {
               position: relative;
               transition: 0.3s all;
               font-size: 18px;
-              font-family: "gta"
+              font-family: 'Anuphan', sans-serif
               ;
 
               align-items: center;
@@ -86,8 +86,8 @@ header {
                 color: #fff;
                 text-transform: uppercase;
                 font-size: 20px;
-                font-weight: 700;
-                font-family: "gta";
+                font-weight: 400;
+                font-family: 'Anuphan', sans-serif;
 
                 &:hover {}
               }
@@ -210,6 +210,7 @@ header {
       span {
         color: white;
         font-size: 22px;
+        font-family: 'Anuphan', sans-serif
       }
     }
   }
