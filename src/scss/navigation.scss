@@ -1,7 +1,6 @@
 @import "./variable.scss";
 @import "./media.scss";
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -52,10 +51,8 @@ header {
           }
 
           img {
-
             height: 45px;
             width: 125px;
-
 
             width: 100%;
           }
@@ -69,31 +66,29 @@ header {
             list-style: none;
             gap: 30px;
 
-            >li {
+            > li {
               margin: 0.5rem 0px !important;
               display: flex;
               position: relative;
               transition: 0.3s all;
               font-size: 18px;
-              font-family: 'Anuphan', sans-serif
-              ;
+              font-family: "Anuphan", sans-serif;
 
               align-items: center;
               justify-content: center;
 
-              >a {
+              > a {
                 transition: 0.3s all;
                 color: #fff;
                 text-transform: uppercase;
                 font-size: 20px;
                 font-weight: 400;
-                font-family: 'Anuphan', sans-serif;
+                font-family: "Anuphan", sans-serif;
 
-                &:hover {}
+                &:hover {
+                }
               }
             }
-
-
           }
         }
 
@@ -111,12 +106,12 @@ header {
           .btn {
             padding: 8px 22px;
             border-radius: 50px;
-            outline: 2px solid #3B3B3B;
+            outline: 2px solid #3b3b3b;
             cursor: pointer;
             background: #ffa300;
             transition: all 0.3s ease-in-out;
             color: #000000;
-            font-family: 'gta';
+            font-family: "gta";
             border-radius: 3px;
 
             // &:hover {
@@ -131,13 +126,11 @@ header {
             }
 
             span {
-              font-family: 'gta';
+              font-family: "gta";
               display: flex;
               align-items: center;
               justify-content: center;
               font-size: 22px;
-
-
             }
           }
 
@@ -200,22 +193,20 @@ header {
   }
 
   .address {
-    width: 100%;
-    text-align: center;
-    background-color: #b00707;
-    color: white;
+    background-color: #f85f23;
+    color: #fff;
     padding: 12px 20px;
+    text-align: center;
+    width: 100%;
 
     a {
       span {
         color: white;
         font-size: 22px;
-        font-family: 'Anuphan', sans-serif
+        font-family: "Anuphan", sans-serif;
       }
     }
   }
-
-
 }
 
 // .nav__active {
@@ -241,7 +232,7 @@ header {
     right: 1.7%;
   }
 
-  >i {
+  > i {
     width: 50px;
     height: 50px;
     display: grid;
@@ -269,7 +260,7 @@ header {
   header {
     .nav__grid {
       .nav__btns {
-        >i {
+        > i {
           display: none;
         }
       }
@@ -282,7 +273,8 @@ header {
     .nav__grid {
       grid-template-columns: 1fr 1.5fr !important;
 
-      .logo {}
+      .logo {
+      }
 
       nav {
         position: absolute;
@@ -315,7 +307,7 @@ header {
       }
 
       .nav__btns {
-        >i {
+        > i {
           width: 50px;
           height: 50px;
           display: grid;
