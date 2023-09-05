@@ -1,0 +1,56 @@
+@import "./media.scss";
+
+#chart {
+    background-color: #e0b10e;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 70px 20px;
+
+        .heading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            h1 {
+
+                font-size: 34px;
+                font-weight: 400;
+                color: black;
+
+
+            }
+        }
+
+        .des {
+            font-size: 22px;
+            color: rgb(51, 51, 51);
+            text-align: center;
+            max-width: 900px;
+        }
+
+        .bottom_icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+            a {
+                width: 100%;
+                text-align: center;
+
+                img {
+                    width: 100%;
+                    object-fit: contain;
+                    max-width: 250px;
+
+                }
+            }
+        }
+    }
+}
