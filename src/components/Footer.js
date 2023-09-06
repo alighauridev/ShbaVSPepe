@@ -13,6 +13,7 @@ import { LinkRounded, Telegram, Twitter } from "@material-ui/icons";
 import bac from "../assests/footer-bac.jpg";
 import logo1 from "../assests/logo-1.webp";
 import logo2 from "../assests/logo-2.webp";
+
 const Footer = () => {
   return (
     <>
@@ -22,15 +23,17 @@ const Footer = () => {
             <h1>Socials</h1>
           </div>
           <div className="icons">
-            <a href="#">
+            <a href="https://t.me/pepevshiba" target="_blank">
               <Telegram />
             </a>
-            <a href="#">
+            <a href="https://twitter.com/pepevshiba_eth" target="_blank">
               <Twitter />{" "}
             </a>
-            <a href="#">
-              <FaDiscord />
-            </a>
+            <div className="tooltip" title="Coming Soon">
+              <a href="#" target="_blank">
+                <FaDiscord />
+              </a>
+            </div>
           </div>
         </div>
       </footer>

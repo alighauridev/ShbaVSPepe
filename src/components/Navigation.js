@@ -82,7 +82,7 @@ const Navigation = () => {
         </div>
         <div className="address">
           <a href="#">
-            <span>CA: 0x0000000000000000000000000000000000000000</span>
+            <span>CA: 0x01F35dE8224cf1076B4138421238d1Eb9Acd19Bd</span>
           </a>
         </div>
 

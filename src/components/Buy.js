@@ -13,7 +13,7 @@ const Buy = () => {
             Participate in the meme showdown by obtaining your Pepe VS Shiba tokens through Uniswap, the foremost decentralized exchange platform.
           </div>
           <div className="bottom_icon">
-            <a href="#">
+            <a href="https://app.uniswap.org/#/swap?outputCurrency=0x01F35dE8224cf1076B4138421238d1Eb9Acd19Bd" target="_blank">
               <img src={buyIcon} alt="buy" />
             </a>
           </div>
